@@ -29,7 +29,7 @@ export default async function ProjectPage({
 
   return (
     <div className="bg-[#0B0B0B] text-white antialiased">
-      <main className="flex flex-col w-full min-h-screen max-w-6xl mx-auto">
+      <main className="px-6 md:px-0 flex flex-col w-full min-h-screen max-w-6xl mx-auto">
         <ProjectDetail project={project} />
       </main>
       <Footer  />

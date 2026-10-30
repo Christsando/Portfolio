@@ -17,14 +17,14 @@ export default function footerSection() {
                     </p>
 
                     {/* Footer Contact */}
-                    <div className="flex gap-4 mt-6">
+                    <div className="flex flex-col md:flex-row gap-4 mt-6">
                         <a href="mailto:christsandoariel05@gmail.com" target="_blank">
-                            <button className="cursor-pointer px-4 text-sm md:text-base py-2 text-black transition-all duration-300 rounded-2xl bg-[#22C55E] hover:bg-[#22C55E]/80">
+                            <button className="w-full md:w-fill cursor-pointer px-4 text-sm md:text-base py-2 text-black transition-all duration-300 rounded-2xl bg-[#22C55E] hover:bg-[#22C55E]/80">
                                 christsandoariel05@gmail.com
                             </button>
                         </a>
                         <a>
-                            <button className="text-sm md:text-basecursor-pointer px-4 py-2 text-[#22C55E] transition-all duration-300 rounded-2xl border border-[#22C55E] hover:border-[#22C55E]/80 hover:text-[#22C55E]/80">
+                            <button className="w-full md:w-fill text-sm md:text-basecursor-pointer px-4 py-2 text-[#22C55E] transition-all duration-300 rounded-2xl border border-[#22C55E] hover:border-[#22C55E]/80 hover:text-[#22C55E]/80">
                                 Download CV
                             </button>
                         </a>
