@@ -27,7 +27,7 @@ export default function ProjectDetail({
     project,
 }: ProjectDetailProps) {
     return (
-        <section className="py-6 mt-12">
+        <section className="py-2 md:py-6 mt-12">
             <a href="/#projects"
                 className="text-[#F5F5F5] hover:text-[#22C55E] transition-all duration-300">
                 <i className="fas fa-arrow-left mr-2 text-sm"></i> Back to Home
