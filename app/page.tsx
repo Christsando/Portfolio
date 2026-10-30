@@ -11,8 +11,8 @@ export default function Home() {
     <div className="bg-[#0B0B0B] text-white antialiased">
       <Navbar />
 
-      <main className="flex flex-col w-full min-h-screen gap-20 md:gap-0
-      px-14 lg:px-0 max-w-6xl mx-auto transition-opacity 
+      <main className="flex flex-col w-full min-h-screen gap-20 md:gap-10
+      px-6 lg:px-0 max-w-6xl mx-auto transition-opacity 
       opacity-100 duration-750 lg:grow starting:opacity-0">
         <HeroSection />
         <AboutMe />

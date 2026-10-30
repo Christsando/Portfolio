@@ -7,7 +7,7 @@ export default function NavbarSection() {
     const closeMenu = () => setIsOpen(false);
 
     return (
-        <nav className="sticky top-0 z-50 w-full max-w-6xl mx-auto lg:px-0 px-14 sm:px-14 py-4 mt-14">
+        <nav className="sticky top-0 z-50 w-full max-w-6xl mx-auto lg:px-0 px-6 py-4 mt-14">
 
             <div className="flex items-center justify-between w-full">
                 {/* Logo */}

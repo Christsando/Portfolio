@@ -1,6 +1,6 @@
 export default function footerSection() {
     return (
-        <section className="flex flex-col mt-32 bg-[#161616] border-t border-[#383838] px-14 lg:px-0 py-8">
+        <section className="flex flex-col mt-32 bg-[#161616] border-t border-[#383838] px-6 lg:px-0 py-8">
 
             {/* Footer Container  */}
             <div className="max-w-6xl w-full mx-auto pb-16 flex border-b border-[#383838]">
